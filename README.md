@@ -1,4 +1,8 @@
 Content Engine with Document Comparison and Insights
+
+
+
+
 Overview
 This Content Engine is designed to process, compare, and analyze multiple PDF documents using Retrieval Augmented Generation (RAG) techniques. Specifically, the system processes Form 10-K filings of multinational companies (Alphabet, Tesla, and Uber), extracts content, and allows users to query and compare information from the documents. The backend is powered by LlamaIndex and ChromaDB for vector storage, and the frontend is built using Streamlit for interactive user interfaces. The system integrates a locally running Large Language Model (LLM) via Ollama for generating insights from the document content.
 
